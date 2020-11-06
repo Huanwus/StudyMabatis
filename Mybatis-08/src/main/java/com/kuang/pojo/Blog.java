@@ -1,0 +1,16 @@
+package com.kuang.pojo;
+
+
+
+import lombok.Data;
+
+import java.util.Date;
+@Data
+public class Blog {
+    private String id;
+    private String title;
+    private String author;
+    private Date createTime;  // 属性名与数据库的属性不一致
+    private int views;
+
+}
